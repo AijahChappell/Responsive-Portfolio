@@ -215,4 +215,158 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
-  
+
+  @media screen and (max-width: 980px) {
+    #masthead {
+      width: 920px;
+      margin: 0 auto;
+    }
+
+    .container a {
+      padding: 0px 15px 0px 15px;
+      color: #999999;
+      text-decoration: none:
+    }
+
+    #main-container {
+      width: 920px;
+      margin: 0 auto;
+    }
+
+    .main-section {
+      width: 920px;
+      padding: 40px 30px 40px 30px;
+      margin-bottom: 50px;
+      background-color: white;
+    }
+
+    #profilePic {
+      width: 380px;
+      height: 380px;
+      margin: 0px 0px 20px 0px;
+    }
+
+    .work {
+      position: relative;
+      margin-bottom: 40px;
+    }
+
+    .work img {
+      max-width: 300px;
+    }
+
+    #left {
+      float: none;
+    }
+
+    #right {
+      float: none;
+    }
+
+  };
+
+  @media screen and (max-width: 768px) {
+    #masthead {
+      width: 600px;
+      margin: 0 auto;
+    }
+
+    .container a {
+      padding: 0px 5px 0px 5px;
+      color: #999999;
+      text-decoration: none:
+    }
+
+    #main-container {
+      width: 600px;
+      margin: 0 auto;
+    }
+
+    .main-section {
+      width: 540px;
+      padding: 40px 30px 40px 30px;
+      margin-bottom: 50px;
+      background-color: white;
+    }
+
+    #profilePic {
+      width: 240px;
+      height: 240px;
+      margin: 0px 20px 10px 0px;
+    }
+
+    .work {
+      position: relative;
+      margin-bottom: 40px;
+    }
+
+    .work img {
+      max-width: 250px;
+    }
+
+    #left {
+      float: left;
+    }
+
+    #right {
+      float: right;
+    }
+
+  };
+
+  @media screen and (max-width: 640px) {
+    #masthead {
+      width: 100%;
+    }
+
+    #logo {
+      width: 100%;
+    }
+
+    nav {
+      width: 100%;
+      background-color: white;
+      margin-bottom: 40px;
+    }
+
+    .container a {
+      color: #999999;
+      text-decoration: none:
+    }
+
+    #main-container {
+      width: 100%;
+    }
+
+    .main-section {
+      width: calc(100%-120px);
+      padding: 40px 30px 40px 30px;
+      margin: 0px 0px 50px 30px;
+      background-color: white;
+    }
+
+    #profilePic {
+      width: 100%;
+      height: 100%;
+      margin: 0px 0px 20px 0px;
+    }
+
+    .work {
+      position: relative;
+      margin-bottom: 40px;
+    }
+
+    .work img {
+      max-width: 100%;
+    }
+
+    #left {
+      float: none;
+    }
+
+    #right {
+      float: none;
+    }
+
+  };
+
