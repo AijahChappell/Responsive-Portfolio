@@ -283,6 +283,7 @@ body {
     }
 
     .main-section {
+      overflow: auto 0;
       width: 540px;
       padding: 40px 30px 40px 30px;
       margin-bottom: 50px;
@@ -327,6 +328,10 @@ body {
       width: 100%;
       background-color: white;
       margin-bottom: 40px;
+      clear: both;
+      text-align: center;
+      float: left;
+      border-bottom: 2px solid #cccccc;
     }
 
     .container a {
@@ -339,10 +344,15 @@ body {
     }
 
     .main-section {
-      width: calc(100%-120px);
-      padding: 40px 30px 40px 30px;
-      margin: 0px 0px 50px 30px;
-      background-color: white;
+      clear: both;
+		  float: left;
+		  overflow: auto 0;
+      width: initial;
+      margin: 2%;
+    }
+
+    .main-section p {
+      clear: both;
     }
 
     #profilePic {
